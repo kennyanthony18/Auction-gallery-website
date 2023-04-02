@@ -1,0 +1,169 @@
+
+.leftmain
+{
+      height: 630px;
+      width: 250px;
+      
+      position: absolute;
+      top: 90px;
+      left: 0px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background-color: #ffffff;
+
+}
+.samemain
+{
+      height: 50px;
+      width: 250px;
+      border-bottom: 1px solid rgba(128, 128, 128, 0.355); 
+      display: flex;
+}
+.samemain img{
+ margin: 10px 20px;
+}
+.h3main
+{
+      font-size: 17px;
+      margin: 17px 0px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #757575;
+      font-weight: 700;
+      
+}
+.h2{
+      color:white;
+      background-color: rgb(0, 0, 0);
+}
+.samemain:hover
+{
+      background-color:rgba(128, 128, 128, 0.303) ;
+}
+.linkmain:hover
+{
+      background-color:white;
+      color: black;
+}
+a{
+      text-decoration: none;
+      color: black;
+}
+.rightmain
+{
+    margin-top: -90px;
+      height:630px;
+      width: 1097px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      position: relative;
+      top: 90px;
+      left: 250px;
+      background-color: #ffffff;
+}
+.headmain{
+      height: 50px;
+      width: 99%;
+      border-bottom: solid 0.1px rgba(128, 128, 128, 0.355);
+      display: flex;
+}
+.linkmain
+{
+      height: 20px;
+      width: 80px;
+      background-color: black;
+      margin: 10px 20px;
+      font-size: 15px;
+      padding: 3px;
+      text-align: center;
+      border-radius: 20px;
+      text-decoration: none;
+      color: rgb(200, 200, 200);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+}
+
+
+.mainmain
+{
+      height: 100%;
+      width: 100%;
+      background-color: black; 
+}
+.boxmain
+{
+      height: 98%;
+      width: 23.5%; 
+      margin-left: 70px;
+      text-decoration: none;
+      background-color: #ffffff ;
+     
+      
+} 
+.containermain
+{
+      height: 48%;
+      width: 99%; 
+      margin-top: 25px;
+      display: flex;
+      background-color: #d9d8d5;
+}
+.container1main
+{
+      height: 40%;
+      width: 99%; 
+      margin-top: 10px;
+      background-image: url(./img/you1.jpg);
+      background-size: cover;
+      background-color: #ffffff;
+}
+h1{
+      color: white;
+}
+.box2
+{
+      height: 80%;
+      width: 30%; 
+      margin-top: 10px;
+      padding-top: 40px;
+      margin-left: 40px;
+}
+.box p{
+      color: grey;
+
+}
+.box:hover{
+      transform:scaleY(1.16) ;
+      opacity: .9;
+}
+input{
+      border-radius: 6px;
+}
+img{
+      border-radius: 6px;
+}
+p{
+    font-size: 19px;
+    font-weight: 200;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(5, 80, 5, 0.784);
+    margin-top: -22px;
+}
+p:hover{
+ color: #014d88cc;
+}
+h3{
+    margin-top: -10px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.feetmain{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.bottemc{
+    text-align: center;
+    background-color: black;
+    color:  #f8f8f8;
+}
